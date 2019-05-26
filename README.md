@@ -10,7 +10,7 @@ See the results here: Github-Pages-Link (will be replaced as soon as the project
   
   - [ ] Build the layout using a mobile first design:
 
-    - [ ] Make sure the HTML file includes the viewport meta tag in the head of the document, see Configuring the Viewport to understand why and how to add this tag.
+    - [X] Make sure the HTML file includes the viewport meta tag in the head of the document, see Configuring the Viewport to understand why and how to add this tag.
     - [ ] Look at the provided mockup (mobile-form.png) and add the same content to your index.html file.
 
   - NOTE: It's okay if your checkboxes and radio buttons don't match the look of those in the mockups. It's perfectly fine to use the standard default radio buttons and checkboxes.
