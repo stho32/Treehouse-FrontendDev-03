@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+h1 {
+    font-size: 15px;
+    margin:0;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.header-heading {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    text-transform: uppercase;
+}
