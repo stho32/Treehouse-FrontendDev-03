@@ -9,12 +9,12 @@ h1 {
 }
 
 .header {
-    background-color: black;
-    color: white;
     text-align: center;
 }
 
 .header-heading {
+    background-color: black;
+    color: white;
     padding-top: 26px;
     padding-bottom: 26px;
     text-transform: uppercase;
