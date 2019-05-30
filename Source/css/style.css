@@ -85,3 +85,29 @@ select.form-input_input:invalid {
     grid-template-columns: 1fr 100px;
 }
 
+/* a group of checkboxes or radio buttons */
+
+.form-selection-group {
+    overflow:auto;
+}
+
+.form-selection-group_label {
+    display: block;
+    color: #999999;
+    margin-bottom: 10px;
+}
+
+/* a checkbox control */
+
+.form-checkbox {
+    overflow:auto;
+}
+
+.form-checkbox_input {
+}
+
+.form-checkbox_label {
+    color : #999999;
+}
+
+

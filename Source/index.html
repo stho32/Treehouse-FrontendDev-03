@@ -29,14 +29,16 @@
             <div class="form-input">
                 <label class="form-input_label" for="fullname">Full Name</label>
                 <div class="form-input_requiredFrame">
-                    <input class="form-input_input form-input_input--withTag" type="text" id="fullname" name="fullname" required>
+                    <input class="form-input_input form-input_input--withTag" type="text" id="fullname" name="fullname"
+                        required>
                     <div class="form-input_requiredTag">Required</div>
                 </div>
             </div>
             <div class="form-input">
                 <label class="form-input_label" for="emailaddress">Email Address</label>
                 <div class="form-input_requiredFrame">
-                    <input class="form-input_input form-input_input--withTag" type="text" id="emailaddress" name="emailaddress" required>
+                    <input class="form-input_input form-input_input--withTag" type="text" id="emailaddress"
+                        name="emailaddress" required>
                     <div class="form-input_requiredTag">Required</div>
                 </div>
             </div>
@@ -67,19 +69,25 @@
         <h3 class="fieldset-heading">Newsletter</h3>
 
         <div class="fieldset-controls">
-            <div class="form-input">
-                <label>Select the newsletters you would like to receive</label>
+            <div class="form-selection-group">
+                <label class="form-selection-group_label">Select the newsletters you would like to receive</label>
                 <div class="form-checkbox">
-                    <input type="checkbox" id="html-news" value="html-news">
-                    <label>HTML News</label>
+                    <label for="html-news" class="form-checkbox_label">
+                        <input type="checkbox" class="form-checkbox_input" id="html-news" value="html-news">
+                        HTML News
+                    </label>
                 </div>
                 <div class="form-checkbox">
-                    <input type="checkbox" id="css-news" value="css-news">
-                    <label>CSS News</label>
+                    <label for="css-news" class="form-checkbox_label">
+                        <input type="checkbox" class="form-checkbox_input" id="css-news" value="css-news">
+                        CSS News
+                    </label>
                 </div>
                 <div class="form-checkbox">
-                    <input type="checkbox" id="javascript-news" value="javascript-news">
-                    <label>Javascript News</label>
+                    <label for="javascript-news" class="form-checkbox_label">
+                        <input type="checkbox" class="form-checkbox_input" id="javascript-news" value="javascript-news">
+                        Javascript News
+                    </label>
                 </div>
             </div>
             <div class="form-input">
