@@ -10,6 +10,7 @@ h1 {
 
 .header {
     text-align: center;
+    padding-bottom: 26px;
 }
 
 .header-heading {
@@ -19,3 +20,68 @@ h1 {
     padding-bottom: 26px;
     text-transform: uppercase;
 }
+
+.separator-thick {
+    border-top: 3px solid black;
+    width: 95%;
+    margin: 0 auto 0 auto;
+}
+
+.separator-thin {
+    border-top: 1px solid black;
+    width: 95%;
+    margin: 1px auto 0 auto;
+}
+
+.form-section {
+    border: 0;
+    padding-bottom: 26px;
+}
+
+.form-input_label {
+    display: block;
+    width: 100%;
+    color: #999999;
+    margin: 2px 0 2px 0;
+}
+
+.form-input_input {
+    display: block;
+    width: 100%;
+    background-color: #eeeeee;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px 0 2px 0;
+}
+
+select.form-input_input:invalid {
+    color: #999999;
+}
+
+.form-input_input--withTag {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-input_input--half {
+    width: 50%;
+}
+
+.form-input_requiredTag {
+    color: #999999;
+    background-color: #eeeeee;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 2px; 
+    margin-bottom: 2px; 
+    padding: 10px;
+    text-align: right;
+    font-style: italic;
+}
+
+.form-input_requiredFrame {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+}
+
