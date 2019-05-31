@@ -116,6 +116,10 @@ select.form-input_input:invalid {
     margin-top: 20px;
 }
 
+.default-spacing-extra {
+    margin-top: 26px;
+}
+
 
 /* a radio control */
 
