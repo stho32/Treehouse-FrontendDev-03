@@ -16,7 +16,7 @@ See the results here: Github-Pages-Link (will be replaced as soon as the project
   - NOTE: It's okay if your checkboxes and radio buttons don't match the look of those in the mockups. It's perfectly fine to use the standard default radio buttons and checkboxes.
   
   
-  - [ ] Create the form structure:
+  - [X] Create the form structure:
 
     - [X] Only use one <form> tag. The <form> tag should contain all the form elements. Add a fieldset and legend for each of the following sections:
       - [X] "Contact Information" section of the page, and
@@ -24,7 +24,7 @@ See the results here: Github-Pages-Link (will be replaced as soon as the project
 
     - NOTE: You don't need to make a functioning form -- that is, it doesn't have to do anything when the form is submitted. To do that, you'd need to add some server-side programming to actually process the user's input.
     
-  - [ ] Make sure you include the following form field types:
+  - [X] Make sure you include the following form field types:
 
     - [X] text input
     - [X] email input
