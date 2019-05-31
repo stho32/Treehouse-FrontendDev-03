@@ -22,96 +22,99 @@
     <div class="separator-thick"></div>
     <div class="separator-thin"></div>
 
-    <fieldset class="form-section" id="contact-information">
-        <h3 class="fieldset-heading">Contact Information</h3>
+    <form>
+        <fieldset class="form-section" id="contact-information">
+            <h3 class="fieldset-heading">Contact Information</h3>
 
-        <div class="fieldset-controls">
-            <div class="form-input">
-                <label class="form-input_label" for="fullname">Full Name</label>
-                <div class="form-input_requiredFrame">
-                    <input class="form-input_input form-input_input--withTag" type="text" id="fullname" name="fullname"
-                        required>
-                    <div class="form-input_requiredTag">Required</div>
+            <div class="fieldset-controls">
+                <div class="form-input">
+                    <label class="form-input_label" for="fullname">Full Name</label>
+                    <div class="form-input_requiredFrame">
+                        <input class="form-input_input form-input_input--withTag" type="text" id="fullname"
+                            name="fullname" required>
+                        <div class="form-input_requiredTag">Required</div>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label class="form-input_label" for="emailaddress">Email Address</label>
+                    <div class="form-input_requiredFrame">
+                        <input class="form-input_input form-input_input--withTag" type="text" id="emailaddress"
+                            name="emailaddress" required>
+                        <div class="form-input_requiredTag">Required</div>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label class="form-input_label" for="streetaddress">Street Address</label>
+                    <input class="form-input_input" type="text" id="streetaddress" name="streetaddress">
+                </div>
+                <div class="form-input">
+                    <label class="form-input_label" for="city">City</label>
+                    <input class="form-input_input" type="text" id="city" name="city">
+                </div>
+                <div class="form-input">
+                    <label class="form-input_label" for="state">State</label>
+                    <select id="state" name="state" class="form-input_input" placeholder="Choose State" required>
+                        <option value="" disabled selected>Choose State</option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <label class="form-input_label" for="zipcode">Zip Code</label>
+                    <input class="form-input_input form-input_input--half" type="text" id="zipcode" name="zipcode">
                 </div>
             </div>
-            <div class="form-input">
-                <label class="form-input_label" for="emailaddress">Email Address</label>
-                <div class="form-input_requiredFrame">
-                    <input class="form-input_input form-input_input--withTag" type="text" id="emailaddress"
-                        name="emailaddress" required>
-                    <div class="form-input_requiredTag">Required</div>
-                </div>
-            </div>
-            <div class="form-input">
-                <label class="form-input_label" for="streetaddress">Street Address</label>
-                <input class="form-input_input" type="text" id="streetaddress" name="streetaddress">
-            </div>
-            <div class="form-input">
-                <label class="form-input_label" for="city">City</label>
-                <input class="form-input_input" type="text" id="city" name="city">
-            </div>
-            <div class="form-input">
-                <label class="form-input_label" for="state">State</label>
-                <select id="state" name="state" class="form-input_input" placeholder="Choose State" required>
-                    <option value="" disabled selected>Choose State</option>
-                </select>
-            </div>
-            <div class="form-input">
-                <label class="form-input_label" for="zipcode">Zip Code</label>
-                <input class="form-input_input form-input_input--half" type="text" id="zipcode" name="zipcode">
-            </div>
-        </div>
-    </fieldset>
+        </fieldset>
 
-    <div class="separator-thin"></div>
+        <div class="separator-thin"></div>
 
-    <fieldset class="form-section" id="newsletter">
-        <h3 class="fieldset-heading">Newsletter</h3>
+        <fieldset class="form-section" id="newsletter">
+            <h3 class="fieldset-heading">Newsletter</h3>
 
-        <div class="fieldset-controls">
-            <div class="form-selection-group">
-                <label class="form-selection-group_label">Select the newsletters you would like to receive</label>
-                <div class="form-checkbox">
-                    <label for="html-news" class="form-checkbox_label">
-                        <input type="checkbox" class="form-checkbox_input" id="html-news" value="html-news">
-                        HTML News
-                    </label>
+            <div class="fieldset-controls">
+                <div class="form-selection-group">
+                    <label class="form-selection-group_label">Select the newsletters you would like to receive</label>
+                    <div class="form-checkbox">
+                        <label for="html-news" class="form-checkbox_label">
+                            <input type="checkbox" class="form-checkbox_input" id="html-news" value="html-news">
+                            HTML News
+                        </label>
+                    </div>
+                    <div class="form-checkbox">
+                        <label for="css-news" class="form-checkbox_label">
+                            <input type="checkbox" class="form-checkbox_input" id="css-news" value="css-news">
+                            CSS News
+                        </label>
+                    </div>
+                    <div class="form-checkbox">
+                        <label for="javascript-news" class="form-checkbox_label">
+                            <input type="checkbox" class="form-checkbox_input" id="javascript-news"
+                                value="javascript-news">
+                            Javascript News
+                        </label>
+                    </div>
                 </div>
-                <div class="form-checkbox">
-                    <label for="css-news" class="form-checkbox_label">
-                        <input type="checkbox" class="form-checkbox_input" id="css-news" value="css-news">
-                        CSS News
-                    </label>
+                <div class="form-selection-group default-spacing">
+                    <label class="form-selection-group_label">Newsletter format</label>
+                    <div class="form-radio">
+                        <input type="radio" class="form-radio_input" id="format-html" name="format" value="format-html">
+                        <label class="form-radio_label" for="format-html">HTML</label>
+                    </div>
+                    <div class="form-radio">
+                        <input type="radio" class="form-radio_input" id="format-text" name="format" value="format-text">
+                        <label class="form-radio_label" for="format-text">Plain text</label>
+                    </div>
                 </div>
-                <div class="form-checkbox">
-                    <label for="javascript-news" class="form-checkbox_label">
-                        <input type="checkbox" class="form-checkbox_input" id="javascript-news" value="javascript-news">
-                        Javascript News
-                    </label>
+                <div class="form-selection-group default-spacing">
+                    <label class="form-selection-group_label">Other topics you'd like to hear about</label>
+
+                    <div class="form-textarea">
+                        <textarea class="form-textarea_input"></textarea>
+                    </div>
                 </div>
             </div>
-            <div class="form-selection-group default-spacing">
-                <label class="form-selection-group_label">Newsletter format</label>
-                <div class="form-radio">
-                    <input type="radio" class="form-radio_input" id="format-html" name="format" value="format-html">
-                    <label class="form-radio_label" for="format-html">HTML</label>
-                </div>
-                <div class="form-radio">
-                    <input type="radio" class="form-radio_input" id="format-text" name="format" value="format-text">
-                    <label class="form-radio_label" for="format-text">Plain text</label>
-                </div>
-            </div>
-            <div class="form-selection-group default-spacing">
-                <label class="form-selection-group_label">Other topics you'd like to hear about</label>
-
-                <div class="form-textarea">
-                    <textarea class="form-textarea_input"></textarea>
-                </div>
-            </div>
-        </div>
-        <button class="form-button default-spacing-extra">Sign up</button>
-    </fieldset>
-
+            <button class="form-button default-spacing-extra">Sign up</button>
+        </fieldset>
+    </form>
+    
     <footer class="footer">
         Copyright The Code Review
     </footer>
