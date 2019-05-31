@@ -129,3 +129,19 @@ select.form-input_input:invalid {
 .form-radio_label {
     color : #999999;
 }
+
+/* a textarea control */
+.form-textarea {
+
+}
+
+.form-textarea_input {
+    display: block;
+    width: 100%;
+    background-color: #eeeeee;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px 0 2px 0;
+    resize: none;
+}
