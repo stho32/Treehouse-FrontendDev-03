@@ -18,22 +18,22 @@ See the results here: Github-Pages-Link (will be replaced as soon as the project
   
   - [ ] Create the form structure:
 
-    - [ ] Only use one <form> tag. The <form> tag should contain all the form elements. Add a fieldset and legend for each of the following sections:
-      - [ ] "Contact Information" section of the page, and
-      - [ ] The "Newsletter" section of the page
+    - [X] Only use one <form> tag. The <form> tag should contain all the form elements. Add a fieldset and legend for each of the following sections:
+      - [X] "Contact Information" section of the page, and
+      - [X] The "Newsletter" section of the page
 
     - NOTE: You don't need to make a functioning form -- that is, it doesn't have to do anything when the form is submitted. To do that, you'd need to add some server-side programming to actually process the user's input.
     
   - [ ] Make sure you include the following form field types:
 
-    - [ ] text input
-    - [ ] email input
-    - [ ] telephone input
-    - [ ] select menu
-    - [ ] checkboxes
-    - [ ] radio buttons
-    - [ ] textarea
-    - [ ] submit button
+    - [X] text input
+    - [X] email input
+    - [X] telephone input
+    - [X] select menu
+    - [X] checkboxes
+    - [X] radio buttons
+    - [X] textarea
+    - [X] submit button
 
 
   - [ ] Form fields should include the following attributes:

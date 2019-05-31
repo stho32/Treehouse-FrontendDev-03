@@ -38,10 +38,14 @@
                 <div class="form-input">
                     <label class="form-input_label" for="emailaddress">Email Address</label>
                     <div class="form-input_requiredFrame">
-                        <input class="form-input_input form-input_input--withTag" type="text" id="emailaddress"
+                        <input class="form-input_input form-input_input--withTag" type="email" id="emailaddress"
                             name="emailaddress" required>
                         <div class="form-input_requiredTag">Required</div>
                     </div>
+                </div>
+                <div class="form-input">
+                    <label class="form-input_label" for="phonenumber">Phone Number</label>
+                    <input class="form-input_input" type="text" id="phonenumber" name="phonenumber">
                 </div>
                 <div class="form-input">
                     <label class="form-input_label" for="streetaddress">Street Address</label>
@@ -55,6 +59,8 @@
                     <label class="form-input_label" for="state">State</label>
                     <select id="state" name="state" class="form-input_input" placeholder="Choose State" required>
                         <option value="" disabled selected>Choose State</option>
+                        <option value="germany">Germany</option>
+                        <option value="usa">USA</option>
                     </select>
                 </div>
                 <div class="form-input">
@@ -111,7 +117,7 @@
                     </div>
                 </div>
             </div>
-            <button class="form-button default-spacing-extra">Sign up</button>
+            <button type="submit" class="form-button default-spacing-extra">Sign up</button>
         </fieldset>
     </form>
 
