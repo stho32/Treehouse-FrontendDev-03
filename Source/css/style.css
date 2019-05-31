@@ -38,6 +38,13 @@ h1 {
     padding-bottom: 26px;
 }
 
+.fieldset-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
 .form-input_label {
     display: block;
     width: 100%;
@@ -173,4 +180,5 @@ select.form-input_input:invalid {
     color: #999999;
     text-align: center;
     font-size: 0.9em;
+    padding-bottom: 100px;
 }
