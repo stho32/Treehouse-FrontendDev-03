@@ -89,6 +89,7 @@ select.form-input_input:invalid {
 
 .form-selection-group {
     overflow:auto;
+    clear: both;
 }
 
 .form-selection-group_label {
@@ -144,4 +145,19 @@ select.form-input_input:invalid {
     border-radius: 5px;
     margin: 2px 0 2px 0;
     resize: none;
+}
+
+/* button control */
+.form-button {
+    display: block;
+    width: 100%;
+    background-color: #4EBBB5;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
 }
