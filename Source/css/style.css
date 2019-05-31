@@ -110,4 +110,8 @@ select.form-input_input:invalid {
     color : #999999;
 }
 
+/* extra-spacings */
+.default-spacing {
+    margin-top: 20px;
+}
 
