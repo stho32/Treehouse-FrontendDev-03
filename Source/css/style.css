@@ -165,3 +165,12 @@ select.form-input_input:invalid {
     font-weight: bold;
     color: white;
 }
+
+/* footer */
+.footer {
+    display : block;
+    font-style: italic;
+    color: #999999;
+    text-align: center;
+    font-size: 0.9em;
+}
