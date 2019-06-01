@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'PT Serif', serif;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
@@ -81,7 +81,7 @@ select.form-input_input:invalid {
 /* a group of checkboxes or radio buttons */
 
 .form-selection-group {
-    overflow:auto;
+    overflow:hidden;
     clear: both;
 }
 
@@ -94,7 +94,7 @@ select.form-input_input:invalid {
 /* a checkbox control */
 
 .form-checkbox {
-    overflow:auto;
+    overflow:hidden;
 }
 
 .form-checkbox_input {
@@ -117,7 +117,7 @@ select.form-input_input:invalid {
 /* a radio control */
 
 .form-radio {
-    overflow: auto;
+    overflow: hidden;
 }
 
 .form-radio_input {

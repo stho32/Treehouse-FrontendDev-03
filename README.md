@@ -54,24 +54,18 @@ See the results here: Github-Pages-Link (will be replaced as soon as the project
     - [X] the Email address field
 
 
-  - [ ] Once you have everything in place for the mobile layout, use a media query to add a breakpoint to adjust the layout for wider tablet and desktop screens.
-    - [ ] Match the design as it should look on a tablet or desktop that is 768px wide using the desktop-form.png mockup.
-    - [ ] Use a mobile-first approach by writing your media queries using the min-width property in your CSS.
+  - [X] Once you have everything in place for the mobile layout, use a media query to add a breakpoint to adjust the layout for wider tablet and desktop screens.
+    - [X] Match the design as it should look on a tablet or desktop that is 768px wide using the desktop-form.png mockup.
+    - [X] Use a mobile-first approach by writing your media queries using the min-width property in your CSS.
 
 
-  - [ ] Once all your breakpoints are in place, double check your layout matches both the mockups.
-    - [ ] Check that the label text position matches both mockups:
-    - [ ] Mobile: Text should be above the form field.
-    - [ ] Desktop: Text should be to the left side of the form field.
+  - [X] Once all your breakpoints are in place, double check your layout matches both the mockups.
+    - [X] Check that the label text position matches both mockups:
+    - [X] Mobile: Text should be above the form field.
+    - [X] Desktop: Text should be to the left side of the form field.
 
-  - [ ] Use a Google Font for the text. The design uses the "Merriweather" font but, you can use any Google Font that you'd like.
+  - [X] Use a Google Font for the text. The design uses the "Merriweather" font but, you can use any Google Font that you'd like.
   - [ ] Add :focus states to the form for when a user clicks or tabs into a text field.
-    
-        
-
-
-
-
 
 
   - [ ] Make sure to check your code is valid by running it through an HTML and CSS validator.
