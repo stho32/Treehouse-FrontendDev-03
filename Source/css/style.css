@@ -67,11 +67,11 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     margin: 2px 0 2px 0;
-    transition: all 0.2s;
+    transition: all 1s;
 }
 
 .form-input_input:focus {
-    background-color: #eeeeff;
+    background-color: #9999ff;
 }
 
 select.form-input_input:invalid {
@@ -137,10 +137,6 @@ select.form-input_input:invalid {
 .form-textarea {
 }
 
-.form-textarea_input:focus {
-    background-color: #eeeeff;
-}
-
 .form-textarea_input {
     display: block;
     width: 100%;
@@ -150,7 +146,11 @@ select.form-input_input:invalid {
     border-radius: 5px;
     margin: 2px 0 2px 0;
     resize: none;
-    transition:all 0.2s;
+    transition:all 1s;
+}
+
+.form-textarea_input:focus {
+    background-color: #9999ff;
 }
 
 /* button control */
@@ -179,6 +179,7 @@ select.form-input_input:invalid {
 }
 
 /* required placeholder */
+/*
 ::-webkit-input-placeholder {
     text-align: right;
     font-style: italic;
@@ -191,13 +192,18 @@ select.form-input_input:invalid {
     font-style: italic;
     padding-right: 5px;
     color: #999999;
-} 
+} */
 
 ::placeholder {
     text-align: right;
     font-style: italic;
     padding-right: 5px;
     color: #999999;
+}
+
+#contact-information {
+    background-color: #eeeeff;
+    border-radius: 10px;
 }
 
 /* Desktop Layout */
