@@ -49,9 +49,9 @@ See the results here: Github-Pages-Link (will be replaced as soon as the project
     - [X] Make sure you properly pair each <label> element with its corresponding form control via the for attribute. See the link above for an example. And don't forget about the textarea element. That needs a functioning label too.
     - [X] NOTE: Remember that to associate a label with a form input element, the label’s “for” attribute should match the input’s unique id.
       
-  - [ ] Use the input field's placeholder attribute to add the text "required" to:
-    - [ ] the Full Name field
-    - [ ] the Email address field
+  - [X] Use the input field's placeholder attribute to add the text "required" to:
+    - [X] the Full Name field
+    - [X] the Email address field
 
 
   - [ ] Once you have everything in place for the mobile layout, use a media query to add a breakpoint to adjust the layout for wider tablet and desktop screens.

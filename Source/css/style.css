@@ -66,30 +66,8 @@ select.form-input_input:invalid {
     color: #999999;
 }
 
-.form-input_input--withTag {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
 .form-input_input--half {
     width: 50%;
-}
-
-.form-input_requiredTag {
-    color: #999999;
-    background-color: #eeeeee;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    margin-top: 2px; 
-    margin-bottom: 2px; 
-    padding: 10px;
-    text-align: right;
-    font-style: italic;
-}
-
-.form-input_requiredFrame {
-    display: grid;
-    grid-template-columns: 1fr 100px;
 }
 
 /* a group of checkboxes or radio buttons */
@@ -181,4 +159,23 @@ select.form-input_input:invalid {
     text-align: center;
     font-size: 0.9em;
     padding-bottom: 100px;
+}
+
+/* required placeholder */
+::-webkit-input-placeholder {
+    text-align: right;
+    font-style: italic;
+    color: #999999;
+}
+
+:-ms-input-placeholder {
+    text-align: right;
+    font-style: italic;
+    color: #999999;
+} 
+
+::placeholder {
+    text-align: right;
+    font-style: italic;
+    color: #999999;
 }
