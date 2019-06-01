@@ -179,3 +179,7 @@ select.form-input_input:invalid {
     font-style: italic;
     color: #999999;
 }
+
+/* Desktop Layout */
+@media (min-width: 768px) {
+}
