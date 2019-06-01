@@ -45,9 +45,9 @@ See the results here: Github-Pages-Link (will be replaced as soon as the project
       - Checkboxes should have identical name attributes but unique value attributes
       - Radio Buttons should have identical name attributes but unique value attributes   
 
-  - [ ] Add labels to each form element using the HTML <label> tag. The text inside the labels should match the names of the form fields in the mockups.
-    - [ ] Make sure you properly pair each <label> element with its corresponding form control via the for attribute. See the link above for an example. And don't forget about the textarea element. That needs a functioning label too.
-    - [ ] NOTE: Remember that to associate a label with a form input element, the label’s “for” attribute should match the input’s unique id.
+  - [X] Add labels to each form element using the HTML <label> tag. The text inside the labels should match the names of the form fields in the mockups.
+    - [X] Make sure you properly pair each <label> element with its corresponding form control via the for attribute. See the link above for an example. And don't forget about the textarea element. That needs a functioning label too.
+    - [X] NOTE: Remember that to associate a label with a form input element, the label’s “for” attribute should match the input’s unique id.
       
   - [ ] Use the input field's placeholder attribute to add the text "required" to:
     - [ ] the Full Name field
