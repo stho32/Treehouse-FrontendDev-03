@@ -67,6 +67,11 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     margin: 2px 0 2px 0;
+    transition: all 0.2s;
+}
+
+.form-input_input:focus {
+    background-color: #eeeeff;
 }
 
 select.form-input_input:invalid {
@@ -130,7 +135,10 @@ select.form-input_input:invalid {
 
 /* a textarea control */
 .form-textarea {
+}
 
+.form-textarea_input:focus {
+    background-color: #eeeeff;
 }
 
 .form-textarea_input {
@@ -142,6 +150,7 @@ select.form-input_input:invalid {
     border-radius: 5px;
     margin: 2px 0 2px 0;
     resize: none;
+    transition:all 0.2s;
 }
 
 /* button control */
@@ -174,17 +183,20 @@ select.form-input_input:invalid {
     text-align: right;
     font-style: italic;
     color: #999999;
+    padding-right: 5px;
 }
 
 :-ms-input-placeholder {
     text-align: right;
     font-style: italic;
+    padding-right: 5px;
     color: #999999;
 } 
 
 ::placeholder {
     text-align: right;
     font-style: italic;
+    padding-right: 5px;
     color: #999999;
 }
 

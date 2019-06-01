@@ -65,7 +65,7 @@ See the results here: Github-Pages-Link (will be replaced as soon as the project
     - [X] Desktop: Text should be to the left side of the form field.
 
   - [X] Use a Google Font for the text. The design uses the "Merriweather" font but, you can use any Google Font that you'd like.
-  - [ ] Add :focus states to the form for when a user clicks or tabs into a text field.
+  - [X] Add :focus states to the form for when a user clicks or tabs into a text field.
 
 
   - [ ] Make sure to check your code is valid by running it through an HTML and CSS validator.
