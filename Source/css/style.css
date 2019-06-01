@@ -21,6 +21,10 @@ h1 {
     text-transform: uppercase;
 }
 
+.header-text {
+    color: #999999;
+}
+
 .separator-thick {
     border-top: 3px solid black;
     width: 95%;
@@ -45,6 +49,9 @@ h1 {
     padding-bottom: 12px;
 }
 
+.form-input {
+}
+
 .form-input_label {
     display: block;
     width: 100%;
@@ -66,8 +73,9 @@ select.form-input_input:invalid {
     color: #999999;
 }
 
-.form-input_input--half {
+.form-input_input--small {
     width: 50%;
+    max-width: 160px;
 }
 
 /* a group of checkboxes or radio buttons */
@@ -182,4 +190,16 @@ select.form-input_input:invalid {
 
 /* Desktop Layout */
 @media (min-width: 768px) {
+    
+    .container {
+        width: 768px;
+        margin: 0 auto 0 auto;
+    }
+
+    .form-input {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+    }
+    
+
 }
