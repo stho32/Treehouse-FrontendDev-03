@@ -36,14 +36,14 @@ See the results here: Github-Pages-Link (will be replaced as soon as the project
     - [X] submit button
 
 
-  - [ ] Form fields should include the following attributes:
+  - [X] Form fields should include the following attributes:
 
-    - [ ] input: should include id, type and name attributes.
-    - [ ] select and textarea: should include id and name attributes.
+    - [X] input: should include id, type and name attributes.
+    - [X] select and textarea: should include id and name attributes.
   
     - NOTE: 
       - Checkboxes should have identical name attributes but unique value attributes
-      - Radio Buttons should have identical name attributes but unique value attributes
+      - Radio Buttons should have identical name attributes but unique value attributes   
 
   - [ ] Add labels to each form element using the HTML <label> tag. The text inside the labels should match the names of the form fields in the mockups.
     - [ ] Make sure you properly pair each <label> element with its corresponding form control via the for attribute. See the link above for an example. And don't forget about the textarea element. That needs a functioning label too.
@@ -67,6 +67,12 @@ See the results here: Github-Pages-Link (will be replaced as soon as the project
   - [ ] Use a Google Font for the text. The design uses the "Merriweather" font but, you can use any Google Font that you'd like.
   - [ ] Add :focus states to the form for when a user clicks or tabs into a text field.
     
+        
+
+
+
+
+
 
   - [ ] Make sure to check your code is valid by running it through an HTML and CSS validator.
 
